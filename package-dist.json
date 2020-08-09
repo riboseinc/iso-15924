@@ -1,0 +1,15 @@
+{
+  "name": "iso-15924",
+  "version": "0.0.0-placeholder",
+  "description": "ISO 15924 codes",
+  "author": "Ribose Open <open@ribose.com>",
+  "main": "index.json",
+  "type": "module",
+  "files": [
+    "index-by-code.json"
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": "git@github.com:riboseinc/iso-15924.git",
+  "keywords": ["iso", "localization", "standards"]
+}

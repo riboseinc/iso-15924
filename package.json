@@ -1,0 +1,29 @@
+{
+  "// 1": "This file is not included in library distribution.",
+  "// 2": "Scripts and dependenceis below are for dev environment.",
+  "// 3": "See package-dist.json for distributed package configuration.",
+  "name": "iso-15924",
+  "version": "0.0.0-placeholder",
+  "description": "ISO 15924 codes",
+  "main": "index.json",
+  "type": "module",
+  "scripts": {
+    "build-json": "node dist/build.js",
+    "compile": "rm -rf dist; tsc"
+  },
+  "repository": "git@github.com:riboseinc/iso-15924.git",
+  "keywords": [
+    "iso",
+    "localization",
+    "standards"
+  ],
+  "author": "Ribose Open <open@ribose.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "csv-parse": "^4.12.0",
+    "typescript": "^3.9.7",
+    "unzipper": "^0.10.11",
+    "@types/unzipper": "^0.10.3"
+  }
+}

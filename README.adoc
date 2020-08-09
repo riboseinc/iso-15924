@@ -1,0 +1,28 @@
+= ISO 15924 codes
+
+== Installation
+
+[source]
+--
+yarn add iso-15924
+--
+
+== Usage
+
+[source]
+--
+import data from 'iso-15924'
+
+for (const item of data) {
+  console.info(item.Code);
+}
+--
+
+== Release process
+
+NOTE: Provisional. Not yet being released.
+
+[source]
+--
+yarn compile; yarn build-json
+--
