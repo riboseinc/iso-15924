@@ -1,5 +1,9 @@
 = ISO 15924 codes
 
+Complete set of fields from the original dataset, with matching names.
+
+Includes index by code.
+
 == Installation
 
 [source]
@@ -11,11 +15,20 @@ yarn add iso-15924
 
 [source]
 --
-import data from 'iso-15924'
+import data from 'iso-15924';
 
 for (const item of data) {
   console.info(item.Code);
+  console.info(item["N°"]);
+  console.info(item["Unicode Version"]);
 }
+--
+
+[source]
+--
+import data from 'iso-15924/index-by-code.json';
+
+console.info(data["Adlm"].Code);
 --
 
 == Release process
