@@ -20,9 +20,37 @@ for (const item of data) {
 
 == Release process
 
-NOTE: Provisional. Not yet being released.
+=== Versioning
+
+The package is versioned as follows:
+
+[source]
+--
+1.20200101.0
+| |        |
+| |        ^ patch version
+| ^ timestamp
+^ major version
+--
+
+Timestamp reflects the date of latest item in the registry.
+
+=== Rebuild the registry
 
 [source]
 --
 yarn compile; yarn build-json
 --
+
+=== Ensure correct version
+
+This will create files under dist/, including package.json with version
+that reflects the timestamp of the latest item in the registry.
+
+Major and patch components of the version are currently fixed as 1 and 0
+respectively. If a different major or patch package version should be published,
+manually edit dist/package.json to increment the number.
+
+=== Publishing to NPM
+
+Publish as per usual. This is not done automatically.
