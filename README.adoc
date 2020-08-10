@@ -8,7 +8,7 @@ Includes index by code.
 
 [source]
 --
-yarn add iso-15924
+yarn add riboseinc/iso-15924#iso-15924-v1.20200424.0-gitpkg
 --
 
 == Usage
