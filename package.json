@@ -1,0 +1,19 @@
+{
+  "name": "iso-15924",
+  "version": "1.20200424.0",
+  "description": "ISO 15924 in format close to the original dataset",
+  "author": "Anton Strogonoff <anton@strogonoff.name>",
+  "main": "index.json",
+  "type": "module",
+  "files": [
+    "index-by-code.json"
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": "git@github.com:riboseinc/iso-15924.git",
+  "keywords": [
+    "iso",
+    "localization",
+    "standards"
+  ]
+}
