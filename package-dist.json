@@ -1,5 +1,5 @@
 {
-  "name": "iso-15924",
+  "name": "@riboseinc/iso-15924",
   "version": "0.0.0-placeholder",
   "description": "ISO 15924 codes",
   "author": "Ribose Open <open@ribose.com>",
