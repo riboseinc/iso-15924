@@ -64,6 +64,7 @@ Major and patch components of the version are currently fixed as 1 and 0
 respectively. If a different major or patch package version should be published,
 manually edit dist/package.json to increment the number.
 
-=== Publishing to NPM
+=== Publish NPM package
 
-Publish as per usual. This is not done automatically.
+Change into dist/ directory and publish as per usual
+(`npm pubish --access public`).
