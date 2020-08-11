@@ -8,8 +8,9 @@
   "main": "index.json",
   "type": "module",
   "scripts": {
+    "compile": "rm -rf dist; tsc",
     "build-json": "node dist/build.js",
-    "compile": "rm -rf dist; tsc"
+    "dist": "cp README.adoc dist/"
   },
   "repository": "git@github.com:riboseinc/iso-15924.git",
   "keywords": [

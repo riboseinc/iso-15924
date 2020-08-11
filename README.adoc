@@ -52,7 +52,7 @@ Timestamp reflects the date of latest item in the registry.
 
 [source]
 --
-yarn compile; yarn build-json
+yarn compile; yarn build-json; yarn dist
 --
 
 === Ensure correct version
