@@ -8,14 +8,14 @@ Includes index by code.
 
 [source]
 --
-yarn add riboseinc/iso-15924#iso-15924-v1.20200424.0-gitpkg
+yarn add "@riboseinc/iso-15924"
 --
 
 == Usage
 
 [source]
 --
-import data from 'iso-15924';
+import data from '@riboseinc/iso-15924'
 
 for (const item of data) {
   console.info(item.Code);
@@ -26,7 +26,7 @@ for (const item of data) {
 
 [source]
 --
-import data from 'iso-15924/index-by-code.json';
+import data from '@riboseinc/iso-15924/index-by-code.json'
 
 console.info(data["Adlm"].Code);
 --
